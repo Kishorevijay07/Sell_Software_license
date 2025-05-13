@@ -6,5 +6,5 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   darkMode: 'class',
   plugins: [tailwindcss(),react()],
-  base:process.env.VITE_BASE_PATH || "/Sell_Software_license",
+  base:process.env.VITE_BASE_PATH || "/",
 })
